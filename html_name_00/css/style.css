@@ -1,0 +1,522 @@
+.wrap {
+    max-width: 1200 px;
+    margin: 0 auto;
+
+}
+
+  header {
+background-color: white;
+padding: 50px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+font-size: 21px;
+  }
+
+  ul {
+    display: flex;
+  }
+  
+  li {
+    margin-right: 50px;
+  }
+
+
+  .table {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+  }
+
+  .table:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .logo {
+width: auto; 
+height: auto; 
+}
+
+
+
+
+
+
+
+
+
+  /* 写真と文字のとこ */
+  .image {
+  position: relative;
+  }
+
+  .image figcaption::first-line {
+      font-size: 48px; 
+      font-weight: bold;
+    
+  }
+
+  .image figcaption {
+    font-size: 32px; 
+}
+
+  .image figcaption{
+  position: absolute;
+  color: white;
+  top: 35%;
+  bottom: 50%;
+  left: 15%;
+  text-align: center; 
+
+  }
+
+ .fig {
+  line-height: 2;
+
+ }
+
+
+
+  
+.bg-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+ 
+ 
+ 
+ 
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* aboutの部分のコード */
+
+
+#about {
+  text-align: center;
+}
+
+.a {
+  color: #ffd61a;
+  font-size: 24px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.b {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.wide {
+  width: 100%; /* 幅が広い段落のスタイル */
+  color: black; /* 文字色を緑に変更 */
+  size: 16px;
+  margin: 40px;
+}
+
+.wow {
+  width: 100%;
+  color: black;
+  size: 16px;
+  margin: 5px;
+}
+
+.c {
+  width: 100%;
+  color: black;
+  size: 16px;
+  margin-bottom: 80px;
+}
+ 
+
+
+
+
+/* courseの始まり */
+
+#course {
+  text-align: center;
+}
+
+.d {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  size: 24px;
+}
+
+.e {
+  margin-bottom: 60px;
+  size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.column-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.column div:nth-of-type(even) {
+  flex-direction: row-reverse;
+}
+
+
+.column1, .column2 {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  
+}
+.column1 {
+  background: #fafafa;
+  padding: 60px 50px 60px 60px;
+  box-sizing: border-box;
+}
+.column-wrapper:nth-of-type(2n) .column1:nth-of-type(1){
+  background: #fafafa;
+}
+.column1title {
+  font-size: 18px;
+  font-weight: bold;
+}
+.column1txt {
+  font-size: 16px;
+  margin: 5px;
+  text-align: left;
+}
+
+
+.column2 img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and ( max-width:500px )
+{
+  .column-wrapper {
+    flex-direction: column-reverse;
+  }
+  .column1, .column2 {
+  width: 100%;
+}
+  .column1 {
+  padding: 25px;
+} 
+}
+
+
+
+
+/* newsのCSS */
+
+
+
+
+
+
+.news {
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 50px;
+  text-align: center; 
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+
+}
+
+
+.news p {
+  font-size: 80%;
+  text-align: left;
+
+}
+
+.news-contena {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: left;
+  margin: 60px auto;
+}
+
+.news-item{
+  max-width: 80%;
+}
+
+
+.news-item .z{
+  text-align: left;
+  padding-top: 30px;
+  margin-bottom: 24px;
+}
+
+.btn-more {
+  display: inline-block;
+  padding: 20px 100px;
+  background-color: #ffd61a;
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-more:hover {
+  background-color: #ffd61a;
+  transform: translateY(-2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Access{
+  max-width: 100%;
+  background-color:#fafafa; 
+  padding: 50px;
+  text-align: center; 
+  line-height: 1.8;
+  letter-spacing: 0.5px;
+}
+
+.Access h2{
+  font-weight: 600;
+  font-size: x-large;
+}
+
+.information {
+  display: flex;
+  justify-content: center; 
+  text-align: left; 
+}
+
+.column {
+  margin: 0 10px; 
+}
+
+.map-container {
+  height: 300px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  
+}
+
+.contact-form h2 {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  font-weight: 600;
+  font-size: x-large;
+}
+  
+.z {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.y{
+  margin-bottom: 5px;
+  text-align: center;
+
+}
+
+.x{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.w{
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+
+
+.contact-form label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  justify-content: space-between;
+  border-collapse: collapse;
+
+}
+
+.contact-form .checkbox-label {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+  
+}
+
+.contact-form .checkbox-label input[type="checkbox"] {
+  margin-right: 10px;
+  
+}
+
+.contact-form label > span, .contact-form .label-title {
+  width: 60%;
+  text-align: left;
+  margin-left: 10px;
+  
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 60%;
+  padding: 5px;
+  box-sizing: border-box;
+  
+}
+
+.contact-form textarea {
+  width: 100%;
+  
+}
+
+.contact-form textarea {
+  width: 60%;
+  height: 150px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.checkox-form {
+  text-align: left;
+  vertical-align: top;
+  display: flex;
+  justify-content: baseline;
+}
+
+.checkox-form input {
+  max-width: 35px;
+}
+
+.checkbox label > span{
+  width: 100%;
+}
+
+.submit-button {
+  text-align: center; 
+  margin-bottom: 100px;
+
+}
+
+.submit-button button {
+  padding: 10px 20px; 
+  background-color: #ffdd57;
+  color: #ffffff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s ease; 
+margin-top: 30px;
+}
+
+.submit-button button:hover {
+  background-color: #0056b3; 
+}
+
+
+.footer {
+  background-color: #707070;
+  color: #fafafa;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 20px;
+  text-align: center;
+  width: 100%;
+}
+
